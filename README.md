@@ -1,12 +1,21 @@
-# What It Does ❓
-What the program does or how it works is by looping through every files in the choosen Minecraft Datapack Folder, then modify its content: removing space and comments.
+# mcfstrip
+Remove spaces and comments from every .mcfunction files in your chosen datapack folder.
 
-# How To Use It
-1. Download [NodeJS](https://nodejs.org/en/download/) if you haven't already.
-2. Download this repository (or just the `index.js` file if you want, its fine.)
-4. Make a backup of your datapack folder, it's optional but just incase the code messed with your datapack.
-5. Move `index.js` inside your datapack folder (alongside `pack.mcmeta`)
-6. Run `node .` in the terminal inside your datapack folder.
-7. Every comments and spaces are now gone from your mcfunctions, making it a lot more clean, and saves up an EXTREMELY small amount of spaces.
+## 📦 Requirements
+- Node.js
+- A datapack folder
 
-Yes. I don't know why I made this in the first place. Seem a bit pointless but sometimes I use it for personal use.
+##🔧 Installation
+1. Clone this repo or Download as zip
+```bash
+git clone https://github.com/mabufu172/mcfstrip.git
+```
+> **Note:** downloading **index.js** folder alone is enough as its the only thing you need.
+2. Make a backup of your datapack folder just to be safe
+3. Move `index.js` to your datapack folder (alongside `pack.mcmeta`)
+4. Run the program:
+```bash
+node .
+```
+
+I have no idea why I made this years ago, but I hope someone (no one) find it useful!
