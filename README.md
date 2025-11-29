@@ -1,5 +1,5 @@
 # mcfstrip
-Remove spaces and comments from every .mcfunction files in your chosen datapack folder.
+Remove spaces and comments from every .mcfunction files in your chosen datapack folder. (yes it's pointless)
 
 ## 📦 Requirements
 - Node.js
