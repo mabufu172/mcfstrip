@@ -5,7 +5,7 @@ Remove spaces and comments from every .mcfunction files in your chosen datapack 
 - Node.js
 - A datapack folder
 
-##🔧 Installation
+## 🔧 Installation
 1. Clone this repo or Download as zip
 ```bash
 git clone https://github.com/mabufu172/mcfstrip.git
